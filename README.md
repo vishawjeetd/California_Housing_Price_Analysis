@@ -76,17 +76,6 @@ Simply download the repository, upload the notebook and dataset on colab, and hi
  - Since Target is not highly correlated with HouseAge and Population, we can remove them.
  - We can observe sudden high spike in number of blocks in Target variable for 5 which shows that California is one of the costly real estate.
 
-### Feature Engineering Options
-
- - As observed in maps, all the important cities, are near the coastal area. The distance from coast can be an additional variable derived longitude and latitude can help to improve model accuracy.
- - Demographic Features:
-    - Population density (calculated from Population)   
-    - Average household size (calculated from AveOccup) 
-    - Bedroom-to-room ratio (calculated from AveBedrms and AveRooms)
-    - Logarithmic transformation for skewed data like AveOccup,AveBedrms,AveRooms
-
-
-
 
 ## Experiments and results with Linear Regression
 
@@ -99,7 +88,6 @@ I have conducted few experiments with Linear Regression for which I have tracked
 | 3                  | Exp No 2 + Log Transformation of AveOccup, AveRooms, AveBedrms| 0.611             | 0.545|
 | 4                  | Exp No 3 + Removed House Age                                   | 0.582             | 0.574|
 | 5                  | Only MedInc                                                     | 0.481             | 0.725|
-
 
 
 ## FAQ
@@ -116,6 +104,22 @@ The coefficient of determination (R-squared) in linear regression represents the
 #### What is MSE?
 
 Mean Squared Error (MSE) is a measure of the average squared difference between the actual values and the predicted values produced by a regression model. It provides a quantitative assessment of the model's performance, with lower MSE values indicating better predictive accuracy.
+
+
+
+## Roadmap
+
+In the future will implement below feature engineering variable and validate their impact on linear regression model:
+
+ - As observed in maps, all the important cities, are near the coastal area. The distance from coast can be an additional variable derived longitude and latitude can help to improve model accuracy.
+ - Demographic Features:
+    - Population density (calculated from Population)   
+    - Average household size (calculated from AveOccup) 
+    - Bedroom-to-room ratio (calculated from AveBedrms and AveRooms)
+    - Logarithmic transformation for skewed data like AveOccup, AveBedrms, AveRooms
+
+
+
 
 
 ## License
