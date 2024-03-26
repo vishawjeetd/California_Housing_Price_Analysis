@@ -1,5 +1,5 @@
 
-![Logo]<img src="https://github.com/vishawjeetd/California_Housing_Price_Analysis/blob/main/img/california-eyes-shuttered-malls-stores-for-new-housing.jpg" height="50" />
+<img src="https://github.com/vishawjeetd/California_Housing_Price_Analysis/blob/main/img/california-eyes-shuttered-malls-stores-for-new-housing.jpg" height="10%" />
 
 
 
