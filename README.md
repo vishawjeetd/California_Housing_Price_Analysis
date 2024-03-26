@@ -1,4 +1,4 @@
-![Logo](https://github.com/vishawjeetd/California_Housing_Price_Analysis/blob/main/img/california_house_banner.jpg?raw=True|width=100)
+![Logo](https://github.com/vishawjeetd/California_Housing_Price_Analysis/blob/main/img/california_house_banner.jpg?raw=True)
 
 
 
